@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9222AEEF231FE82400403933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AEEE231FE82400403933 /* AppDelegate.m */; };
+		9222AEF2231FE82400403933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AEF1231FE82400403933 /* ViewController.m */; };
+		9222AEF5231FE82400403933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9222AEF3231FE82400403933 /* Main.storyboard */; };
+		9222AEF7231FE82700403933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9222AEF6231FE82700403933 /* Assets.xcassets */; };
+		9222AEFA231FE82700403933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9222AEF8231FE82700403933 /* LaunchScreen.storyboard */; };
+		9222AEFD231FE82700403933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AEFC231FE82700403933 /* main.m */; };
+		9222AF07231FE82700403933 /* WachCalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF06231FE82700403933 /* WachCalTests.m */; };
+		9222AF12231FE82700403933 /* WachCalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF11231FE82700403933 /* WachCalUITests.m */; };
+		9222AF3C231FE84100403933 /* INRiliCalDayItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF22231FE84100403933 /* INRiliCalDayItemViewModel.m */; };
+		9222AF3D231FE84100403933 /* INRiliCalPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF25231FE84100403933 /* INRiliCalPresenter.m */; };
+		9222AF3E231FE84100403933 /* INRiliCalHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF2C231FE84100403933 /* INRiliCalHeaderView.m */; };
+		9222AF3F231FE84100403933 /* INRiliCalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF30231FE84100403933 /* INRiliCalTableViewCell.m */; };
+		9222AF40231FE84100403933 /* INRiliCalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF31231FE84100403933 /* INRiliCalScrollView.m */; };
+		9222AF41231FE84100403933 /* INRiliCalWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF32231FE84100403933 /* INRiliCalWeekView.m */; };
+		9222AF42231FE84100403933 /* INRiliCalDiarySectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF33231FE84100403933 /* INRiliCalDiarySectionView.m */; };
+		9222AF43231FE84100403933 /* INRiliCalMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF34231FE84100403933 /* INRiliCalMonthView.m */; };
+		9222AF45231FE84100403933 /* INRiliCalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF36231FE84100403933 /* INRiliCalView.m */; };
+		9222AF46231FE84100403933 /* INRiliCalInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF3A231FE84100403933 /* INRiliCalInteractor.m */; };
+		9222AF47231FE84100403933 /* INRiliCalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF3B231FE84100403933 /* INRiliCalViewController.m */; };
+		9222AF4A231FE87D00403933 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF48231FE87D00403933 /* UIColor+Addition.m */; };
+		9222AF4D231FE8D100403933 /* SDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF4B231FE8D100403933 /* SDBaseView.m */; };
+		9222AF51231FE94500403933 /* SDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF50231FE94500403933 /* SDBaseTableViewCell.m */; };
+		9222AF54231FEA3D00403933 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF53231FEA3D00403933 /* UIImage+Color.m */; };
+		9222AF58231FEB1F00403933 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF57231FEB1F00403933 /* NSString+Size.m */; };
+		9222AF5B231FECEE00403933 /* SDCalculationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF5A231FECEE00403933 /* SDCalculationUtil.m */; };
+		9222AF5E231FEE0900403933 /* UIView+SDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF5C231FEE0900403933 /* UIView+SDFrame.m */; };
+		9222AF61231FEE6C00403933 /* INMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9222AF5F231FEE6B00403933 /* INMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9222AF03231FE82700403933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9222AEE2231FE82400403933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9222AEE9231FE82400403933;
+			remoteInfo = WachCal;
+		};
+		9222AF0E231FE82700403933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9222AEE2231FE82400403933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9222AEE9231FE82400403933;
+			remoteInfo = WachCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9222AEEA231FE82400403933 /* WachCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WachCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9222AEED231FE82400403933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9222AEEE231FE82400403933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9222AEF0231FE82400403933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9222AEF1231FE82400403933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9222AEF4231FE82400403933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9222AEF6231FE82700403933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9222AEF9231FE82700403933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9222AEFB231FE82700403933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9222AEFC231FE82700403933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9222AF02231FE82700403933 /* WachCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WachCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9222AF06231FE82700403933 /* WachCalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WachCalTests.m; sourceTree = "<group>"; };
+		9222AF08231FE82700403933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9222AF0D231FE82700403933 /* WachCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WachCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9222AF11231FE82700403933 /* WachCalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WachCalUITests.m; sourceTree = "<group>"; };
+		9222AF13231FE82700403933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9222AF21231FE84100403933 /* INRiliCalDayItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalDayItemViewModel.h; sourceTree = "<group>"; };
+		9222AF22231FE84100403933 /* INRiliCalDayItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalDayItemViewModel.m; sourceTree = "<group>"; };
+		9222AF24231FE84100403933 /* INRiliCalPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalPresenter.h; sourceTree = "<group>"; };
+		9222AF25231FE84100403933 /* INRiliCalPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalPresenter.m; sourceTree = "<group>"; };
+		9222AF26231FE84100403933 /* INRiliCalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalViewController.h; sourceTree = "<group>"; };
+		9222AF28231FE84100403933 /* INRiliCalDiarySectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalDiarySectionView.h; sourceTree = "<group>"; };
+		9222AF29231FE84100403933 /* INRiliCalWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalWeekView.h; sourceTree = "<group>"; };
+		9222AF2A231FE84100403933 /* INRiliCalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalScrollView.h; sourceTree = "<group>"; };
+		9222AF2B231FE84100403933 /* INRiliCalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalTableViewCell.h; sourceTree = "<group>"; };
+		9222AF2C231FE84100403933 /* INRiliCalHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalHeaderView.m; sourceTree = "<group>"; };
+		9222AF2D231FE84100403933 /* INRiliCalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalView.h; sourceTree = "<group>"; };
+		9222AF2F231FE84100403933 /* INRiliCalMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalMonthView.h; sourceTree = "<group>"; };
+		9222AF30231FE84100403933 /* INRiliCalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalTableViewCell.m; sourceTree = "<group>"; };
+		9222AF31231FE84100403933 /* INRiliCalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalScrollView.m; sourceTree = "<group>"; };
+		9222AF32231FE84100403933 /* INRiliCalWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalWeekView.m; sourceTree = "<group>"; };
+		9222AF33231FE84100403933 /* INRiliCalDiarySectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalDiarySectionView.m; sourceTree = "<group>"; };
+		9222AF34231FE84100403933 /* INRiliCalMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalMonthView.m; sourceTree = "<group>"; };
+		9222AF36231FE84100403933 /* INRiliCalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalView.m; sourceTree = "<group>"; };
+		9222AF37231FE84100403933 /* INRiliCalHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalHeaderView.h; sourceTree = "<group>"; };
+		9222AF39231FE84100403933 /* INRiliCalInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INRiliCalInteractor.h; sourceTree = "<group>"; };
+		9222AF3A231FE84100403933 /* INRiliCalInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalInteractor.m; sourceTree = "<group>"; };
+		9222AF3B231FE84100403933 /* INRiliCalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INRiliCalViewController.m; sourceTree = "<group>"; };
+		9222AF48231FE87D00403933 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		9222AF49231FE87D00403933 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		9222AF4B231FE8D100403933 /* SDBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseView.m; sourceTree = "<group>"; };
+		9222AF4C231FE8D100403933 /* SDBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseView.h; sourceTree = "<group>"; };
+		9222AF4E231FE90C00403933 /* SDSystemDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSystemDefine.h; sourceTree = "<group>"; };
+		9222AF4F231FE94500403933 /* SDBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseTableViewCell.h; sourceTree = "<group>"; };
+		9222AF50231FE94500403933 /* SDBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseTableViewCell.m; sourceTree = "<group>"; };
+		9222AF52231FEA3D00403933 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		9222AF53231FEA3D00403933 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		9222AF55231FEA8200403933 /* SDFontDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDFontDefine.h; sourceTree = "<group>"; };
+		9222AF56231FEB1E00403933 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		9222AF57231FEB1F00403933 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		9222AF59231FECEE00403933 /* SDCalculationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCalculationUtil.h; sourceTree = "<group>"; };
+		9222AF5A231FECEE00403933 /* SDCalculationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCalculationUtil.m; sourceTree = "<group>"; };
+		9222AF5C231FEE0900403933 /* UIView+SDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDFrame.m"; sourceTree = "<group>"; };
+		9222AF5D231FEE0900403933 /* UIView+SDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDFrame.h"; sourceTree = "<group>"; };
+		9222AF5F231FEE6B00403933 /* INMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INMainViewController.m; sourceTree = "<group>"; };
+		9222AF60231FEE6C00403933 /* INMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INMainViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9222AEE7231FE82400403933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222AEFF231FE82700403933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222AF0A231FE82700403933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9222AEE1231FE82400403933 = {
+			isa = PBXGroup;
+			children = (
+				9222AEEC231FE82400403933 /* WachCal */,
+				9222AF05231FE82700403933 /* WachCalTests */,
+				9222AF10231FE82700403933 /* WachCalUITests */,
+				9222AEEB231FE82400403933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9222AEEB231FE82400403933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9222AEEA231FE82400403933 /* WachCal.app */,
+				9222AF02231FE82700403933 /* WachCalTests.xctest */,
+				9222AF0D231FE82700403933 /* WachCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9222AEEC231FE82400403933 /* WachCal */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF1F231FE84100403933 /* RiliCal */,
+				9222AEED231FE82400403933 /* AppDelegate.h */,
+				9222AEEE231FE82400403933 /* AppDelegate.m */,
+				9222AF60231FEE6C00403933 /* INMainViewController.h */,
+				9222AF5F231FEE6B00403933 /* INMainViewController.m */,
+				9222AF4C231FE8D100403933 /* SDBaseView.h */,
+				9222AF4B231FE8D100403933 /* SDBaseView.m */,
+				9222AF4F231FE94500403933 /* SDBaseTableViewCell.h */,
+				9222AF50231FE94500403933 /* SDBaseTableViewCell.m */,
+				9222AF4E231FE90C00403933 /* SDSystemDefine.h */,
+				9222AF55231FEA8200403933 /* SDFontDefine.h */,
+				9222AF49231FE87D00403933 /* UIColor+Addition.h */,
+				9222AF48231FE87D00403933 /* UIColor+Addition.m */,
+				9222AF5D231FEE0900403933 /* UIView+SDFrame.h */,
+				9222AF5C231FEE0900403933 /* UIView+SDFrame.m */,
+				9222AF52231FEA3D00403933 /* UIImage+Color.h */,
+				9222AF53231FEA3D00403933 /* UIImage+Color.m */,
+				9222AF56231FEB1E00403933 /* NSString+Size.h */,
+				9222AF57231FEB1F00403933 /* NSString+Size.m */,
+				9222AEF0231FE82400403933 /* ViewController.h */,
+				9222AEF1231FE82400403933 /* ViewController.m */,
+				9222AEF3231FE82400403933 /* Main.storyboard */,
+				9222AEF6231FE82700403933 /* Assets.xcassets */,
+				9222AEF8231FE82700403933 /* LaunchScreen.storyboard */,
+				9222AEFB231FE82700403933 /* Info.plist */,
+				9222AEFC231FE82700403933 /* main.m */,
+			);
+			path = WachCal;
+			sourceTree = "<group>";
+		};
+		9222AF05231FE82700403933 /* WachCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF06231FE82700403933 /* WachCalTests.m */,
+				9222AF08231FE82700403933 /* Info.plist */,
+			);
+			path = WachCalTests;
+			sourceTree = "<group>";
+		};
+		9222AF10231FE82700403933 /* WachCalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF11231FE82700403933 /* WachCalUITests.m */,
+				9222AF13231FE82700403933 /* Info.plist */,
+			);
+			path = WachCalUITests;
+			sourceTree = "<group>";
+		};
+		9222AF1F231FE84100403933 /* RiliCal */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF20231FE84100403933 /* ViewModel */,
+				9222AF23231FE84100403933 /* Presenter */,
+				9222AF26231FE84100403933 /* INRiliCalViewController.h */,
+				9222AF27231FE84100403933 /* View */,
+				9222AF38231FE84100403933 /* Interactor */,
+				9222AF3B231FE84100403933 /* INRiliCalViewController.m */,
+			);
+			path = RiliCal;
+			sourceTree = "<group>";
+		};
+		9222AF20231FE84100403933 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF21231FE84100403933 /* INRiliCalDayItemViewModel.h */,
+				9222AF22231FE84100403933 /* INRiliCalDayItemViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9222AF23231FE84100403933 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF24231FE84100403933 /* INRiliCalPresenter.h */,
+				9222AF25231FE84100403933 /* INRiliCalPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9222AF27231FE84100403933 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF28231FE84100403933 /* INRiliCalDiarySectionView.h */,
+				9222AF29231FE84100403933 /* INRiliCalWeekView.h */,
+				9222AF2A231FE84100403933 /* INRiliCalScrollView.h */,
+				9222AF2B231FE84100403933 /* INRiliCalTableViewCell.h */,
+				9222AF2C231FE84100403933 /* INRiliCalHeaderView.m */,
+				9222AF2D231FE84100403933 /* INRiliCalView.h */,
+				9222AF2F231FE84100403933 /* INRiliCalMonthView.h */,
+				9222AF30231FE84100403933 /* INRiliCalTableViewCell.m */,
+				9222AF31231FE84100403933 /* INRiliCalScrollView.m */,
+				9222AF32231FE84100403933 /* INRiliCalWeekView.m */,
+				9222AF33231FE84100403933 /* INRiliCalDiarySectionView.m */,
+				9222AF34231FE84100403933 /* INRiliCalMonthView.m */,
+				9222AF36231FE84100403933 /* INRiliCalView.m */,
+				9222AF37231FE84100403933 /* INRiliCalHeaderView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9222AF38231FE84100403933 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9222AF59231FECEE00403933 /* SDCalculationUtil.h */,
+				9222AF5A231FECEE00403933 /* SDCalculationUtil.m */,
+				9222AF39231FE84100403933 /* INRiliCalInteractor.h */,
+				9222AF3A231FE84100403933 /* INRiliCalInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9222AEE9231FE82400403933 /* WachCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9222AF16231FE82700403933 /* Build configuration list for PBXNativeTarget "WachCal" */;
+			buildPhases = (
+				9222AEE6231FE82400403933 /* Sources */,
+				9222AEE7231FE82400403933 /* Frameworks */,
+				9222AEE8231FE82400403933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WachCal;
+			productName = WachCal;
+			productReference = 9222AEEA231FE82400403933 /* WachCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9222AF01231FE82700403933 /* WachCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9222AF19231FE82700403933 /* Build configuration list for PBXNativeTarget "WachCalTests" */;
+			buildPhases = (
+				9222AEFE231FE82700403933 /* Sources */,
+				9222AEFF231FE82700403933 /* Frameworks */,
+				9222AF00231FE82700403933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9222AF04231FE82700403933 /* PBXTargetDependency */,
+			);
+			name = WachCalTests;
+			productName = WachCalTests;
+			productReference = 9222AF02231FE82700403933 /* WachCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9222AF0C231FE82700403933 /* WachCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9222AF1C231FE82700403933 /* Build configuration list for PBXNativeTarget "WachCalUITests" */;
+			buildPhases = (
+				9222AF09231FE82700403933 /* Sources */,
+				9222AF0A231FE82700403933 /* Frameworks */,
+				9222AF0B231FE82700403933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9222AF0F231FE82700403933 /* PBXTargetDependency */,
+			);
+			name = WachCalUITests;
+			productName = WachCalUITests;
+			productReference = 9222AF0D231FE82700403933 /* WachCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9222AEE2231FE82400403933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = guobingwei;
+				TargetAttributes = {
+					9222AEE9231FE82400403933 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9222AF01231FE82700403933 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9222AEE9231FE82400403933;
+					};
+					9222AF0C231FE82700403933 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9222AEE9231FE82400403933;
+					};
+				};
+			};
+			buildConfigurationList = 9222AEE5231FE82400403933 /* Build configuration list for PBXProject "WachCal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9222AEE1231FE82400403933;
+			productRefGroup = 9222AEEB231FE82400403933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9222AEE9231FE82400403933 /* WachCal */,
+				9222AF01231FE82700403933 /* WachCalTests */,
+				9222AF0C231FE82700403933 /* WachCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9222AEE8231FE82400403933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9222AEFA231FE82700403933 /* LaunchScreen.storyboard in Resources */,
+				9222AEF7231FE82700403933 /* Assets.xcassets in Resources */,
+				9222AEF5231FE82400403933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222AF00231FE82700403933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222AF0B231FE82700403933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9222AEE6231FE82400403933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9222AF47231FE84100403933 /* INRiliCalViewController.m in Sources */,
+				9222AF4A231FE87D00403933 /* UIColor+Addition.m in Sources */,
+				9222AF61231FEE6C00403933 /* INMainViewController.m in Sources */,
+				9222AF43231FE84100403933 /* INRiliCalMonthView.m in Sources */,
+				9222AEF2231FE82400403933 /* ViewController.m in Sources */,
+				9222AF58231FEB1F00403933 /* NSString+Size.m in Sources */,
+				9222AF46231FE84100403933 /* INRiliCalInteractor.m in Sources */,
+				9222AF45231FE84100403933 /* INRiliCalView.m in Sources */,
+				9222AF40231FE84100403933 /* INRiliCalScrollView.m in Sources */,
+				9222AF5E231FEE0900403933 /* UIView+SDFrame.m in Sources */,
+				9222AF42231FE84100403933 /* INRiliCalDiarySectionView.m in Sources */,
+				9222AF51231FE94500403933 /* SDBaseTableViewCell.m in Sources */,
+				9222AF5B231FECEE00403933 /* SDCalculationUtil.m in Sources */,
+				9222AF4D231FE8D100403933 /* SDBaseView.m in Sources */,
+				9222AF54231FEA3D00403933 /* UIImage+Color.m in Sources */,
+				9222AF3F231FE84100403933 /* INRiliCalTableViewCell.m in Sources */,
+				9222AEFD231FE82700403933 /* main.m in Sources */,
+				9222AF3C231FE84100403933 /* INRiliCalDayItemViewModel.m in Sources */,
+				9222AEEF231FE82400403933 /* AppDelegate.m in Sources */,
+				9222AF3D231FE84100403933 /* INRiliCalPresenter.m in Sources */,
+				9222AF3E231FE84100403933 /* INRiliCalHeaderView.m in Sources */,
+				9222AF41231FE84100403933 /* INRiliCalWeekView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222AEFE231FE82700403933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9222AF07231FE82700403933 /* WachCalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222AF09231FE82700403933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9222AF12231FE82700403933 /* WachCalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9222AF04231FE82700403933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9222AEE9231FE82400403933 /* WachCal */;
+			targetProxy = 9222AF03231FE82700403933 /* PBXContainerItemProxy */;
+		};
+		9222AF0F231FE82700403933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9222AEE9231FE82400403933 /* WachCal */;
+			targetProxy = 9222AF0E231FE82700403933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9222AEF3231FE82400403933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9222AEF4231FE82400403933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9222AEF8231FE82700403933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9222AEF9231FE82700403933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9222AF14231FE82700403933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9222AF15231FE82700403933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9222AF17231FE82700403933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WachCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laileshuo.WachCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9222AF18231FE82700403933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WachCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laileshuo.WachCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9222AF1A231FE82700403933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WachCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laileshuo.WachCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WachCal.app/WachCal";
+			};
+			name = Debug;
+		};
+		9222AF1B231FE82700403933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WachCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laileshuo.WachCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WachCal.app/WachCal";
+			};
+			name = Release;
+		};
+		9222AF1D231FE82700403933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WachCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laileshuo.WachCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WachCal;
+			};
+			name = Debug;
+		};
+		9222AF1E231FE82700403933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WachCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laileshuo.WachCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WachCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9222AEE5231FE82400403933 /* Build configuration list for PBXProject "WachCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9222AF14231FE82700403933 /* Debug */,
+				9222AF15231FE82700403933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9222AF16231FE82700403933 /* Build configuration list for PBXNativeTarget "WachCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9222AF17231FE82700403933 /* Debug */,
+				9222AF18231FE82700403933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9222AF19231FE82700403933 /* Build configuration list for PBXNativeTarget "WachCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9222AF1A231FE82700403933 /* Debug */,
+				9222AF1B231FE82700403933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9222AF1C231FE82700403933 /* Build configuration list for PBXNativeTarget "WachCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9222AF1D231FE82700403933 /* Debug */,
+				9222AF1E231FE82700403933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9222AEE2231FE82400403933 /* Project object */;
+}
